@@ -22,7 +22,8 @@ A sample split (75% training, 5% validation, 20% testing) of the MovieLens100K d
 - train_mask.npz: training mask, same shape as the original matrix
 - val_mask.npz: validation mask, same shape as the original matrix
 - test_mask.npz: testing mask, same shape as the original matrix
-all these matrices are saved as Numpy sparse csr_matrix. 
+
+All these matrices are saved as Numpy sparse csr_matrix. 
 
 Alternatively, you can write your own DataLoader to load and feed the model during training, with data prepared in another way.
 
@@ -58,5 +59,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Reference
 If you find the source code useful, please cite us:
 ```
-D. M. Nguyen, E. Tsiligianni and N. Deligiannis, "Extendable Neural Matrix Completion," 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018, pp. 6328-6332.
+D. M. Nguyen, E. Tsiligianni and N. Deligiannis, "Extendable Neural Matrix Completion," 
+2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018, pp. 6328-6332.
 ```
