@@ -60,5 +60,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 If you find the source code useful, please cite us:
 ```
 D. M. Nguyen, E. Tsiligianni and N. Deligiannis, "Extendable Neural Matrix Completion," 
-2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018, pp. 6328-6332.
+IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018, pp. 6328-6332.
 ```
