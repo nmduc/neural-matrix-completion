@@ -25,7 +25,7 @@ A sample split (75% training, 5% validation, 20% testing) of the MovieLens100K d
 
 All these matrices are saved as Numpy sparse csr_matrix. 
 
-Alternatively, you can write your own DataLoader to load and feed the model during training, with data prepared in another way.
+Alternatively, you can write your own DataLoader to load and feed the model during training, with data prepared in your preferred way.
 
 ### Configurations
 The configs/configs_ML100K.py file sets all the default configurations and hyper-parameters.
@@ -50,7 +50,7 @@ After training the model, you can test it by calling test.py, with the default p
 python test.py --data_dir=./data/MovieLens100K/ --snapshot_dir=./outputs/snapshots/
 ```
 ## Related
-If you want to produce discrete output, you may want to check our paper "Learning Discrete Matrix Factorization Models" (published at Signal Processing Letters 2018). 
+If you want to produce discrete output, you may want to check our paper "Learning Discrete Matrix Factorization Models" (published at IEEE Signal Processing Letters 2018). 
 The source code is available at: https://github.com/nmduc/discrete-matrix-factorization
 
 ## License
